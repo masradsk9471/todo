@@ -1,7 +1,7 @@
 {
   "name": "todo",
   "version": "0.1.0",
-  "https": "//masradsk9471.github.io/todo/",
+  "https": "//masradsk9471.github.io/todo",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
