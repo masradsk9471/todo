@@ -1,34 +1,31 @@
 {
-  "homepage": "https://masradsk9471.github.io/todo/",
-  "name": "todolist",
+  "name": "todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/icons-material": "^5.16.1",
-    "@mui/material": "^5.16.1",
-    "@mui/styles": "^5.16.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/styles": "^5.16.4",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.17.1",
     "axios": "^1.7.2",
-    "i": "^0.3.7",
-    "install": "^0.13.0",
-    "npm": "^10.8.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^9.1.2",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "5.0.1",
     "redux": "^5.0.1",
-    "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^3.1.0",
+    "styled-components": "^6.1.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -49,8 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }

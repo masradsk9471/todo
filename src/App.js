@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React,{useState,useEffect} from 'react';
+import './App.css';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   Container,
@@ -22,7 +23,7 @@ import {
   deleteTask,
   editTask,
   saveTask,
-} from './components/store/actions'; 
+} from './Components/store/action'; 
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -55,7 +56,8 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const App = () => {
+
+function App() {
   const classes = useStyles();
   const dispatch = useDispatch();
   const tasks = useSelector(state => state.tasks.tasks);
@@ -102,7 +104,6 @@ const App = () => {
     dispatch(editTask(null)); 
     setEditedTaskTitle(''); 
   };
-
   return (
     <Box className={classes.root}>
       <Container maxWidth="sm" style={{ marginTop: '2rem' }}>
@@ -180,6 +181,6 @@ const App = () => {
       </Container>
     </Box>
   );
-};
+}
 
 export default App;
